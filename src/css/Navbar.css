@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height:200px;
+background-color:rgb(181,85,108);
+}
+
+nav {
+    background-color: black;
+    padding: 10px 20px;
+    height:20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.desktop-nav ul,
+.mobile-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.desktop-nav li,
+.mobile-nav li {
+    margin: 0 10px;
+}
+
+.desktop-nav a,
+.mobile-nav a {
+    color: yellow;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hamburger {
+    cursor: pointer;
+    font-size: solid 24px;
+    font-weight: bold;
+    color: white;
+    background-color: white;
+    display: none;
+    padding:4px;
+}
+
+.mobile-nav {
+    display: none;
+}
+li
+{
+    list-style-type: none;
+}
+.mobile-sidebar a
+{ 
+        display: block;
+        padding: 5px;
+        margin-bottom: 5px; /* Adjust this value as needed */
+        text-decoration: none;
+        color: black;
+}
+
+@media (max-width: 600px) {
+    .desktop-nav {
+        display: none;
+    }
+    .mobile-nav {
+        display: block;
+        flex-direction: column;
+        left:10%;
+    }
+    .hamburger {
+        display: block;
+    }
+    
+    .mobile-nav ul {
+        background-color:black;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        max-height: max-content;
+        width: 20%;
+        overflow: hidden;
+        margin:0;
+        display: flex;
+        flex-direction: column;
+        padding:0;
+    }
+ 
+   .mobile-nav a {
+    padding-bottom: 10px; /* Adjust as needed */
+    padding-top: 0.5px; /* Adjust as needed */
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: yellow;
+    text-decoration: none;
+}
+.clsbtn
+{
+  position:relative;
+  left:-500px;
+  width:50px;
+  padding-right:20px;
+  font-size:30px;
+  padding-left:20px;
+}
+
+}
+
+.desktop-nav ul a:hover {
+    background-color: rgba(181,85,108);
+    padding: 10px 20px;
+    color: black;
+}
+
+.mobile-nav ul a:hover {
+    padding: 4px;
+    width: 100%;
+    background-color:rgba(181,85,108);
+}
+.mobile-sidebar  li a
+{
+    text-align:left;
+    left:0;
+}
+.clsbtn
+{
+    background-color: #fff;
+}
+
