@@ -1,0 +1,8 @@
+.load img
+{
+    width:50px;
+    height:50px;
+    display: block;
+    margin: 50px auto;
+    padding: 0%;
+}

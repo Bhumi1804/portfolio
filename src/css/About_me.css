@@ -19,10 +19,11 @@
     margin-top:75px;
     width:5%;
     height:10%;
-    margin-left:50px;
+    /* margin-left:50px; */
     margin-bottom: 25px;
-    position:relative;
-    top:-100%;
+    /* position:relative; */
+    /* top:-100%; */
+    
     
 }
 #image img
@@ -39,6 +40,7 @@
     width:290px;
     height:350px;
     border:15px solid teal;
+    
     
 }
 h2
@@ -72,22 +74,25 @@ h2
         margin-right:0px;
         top:19%;
         width:95%;
-        border:15px solid teal;
+        border:10px solid teal;
         height:200px;
         color:#003366;
+        line-height: 0.95;
     }
     #image
     {
-        position: sticky;
+        /* position: sticky; */
         flex-direction: column;
-        margin-left:140px;
+        margin-left:20px;
         margin-top:15px;
-        bottom: -90px;
-        top:-1%;
+        /* bottom: -90px; */
+        /* top:-1%; */
+        /* left:0px; */
         
     }
     
 }
+
 
 
 

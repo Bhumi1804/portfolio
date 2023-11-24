@@ -1,4 +1,5 @@
 import ld from "../images/loader.jpg";
+import "../css/Loader.css";
 function Loader()
 {
     return(

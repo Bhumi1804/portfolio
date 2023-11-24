@@ -36,7 +36,7 @@ setActiveNav(location.pathname);
                   ""
                   :
                   <li className="desktop">
-                  <Link to="/About_me">About_me</Link>
+                  <Link to="/About_me">About</Link>
                 </li>
                 }
                 {
@@ -71,11 +71,12 @@ setActiveNav(location.pathname);
             </div>
             {mobileNavbar ? (
               <div className="mobile-nav">
-                <div className="sidebar">
+                {/* <div className="sidebar"> */}
                   <span className="clsbtn" onClick={() => hamburger(false)}>
                     &times;
                   </span>
-                </div>
+                  
+                {/* </div> */}
                 <div className="mobile-sidebar" >
                   <ul  onClick={other}>
                     {

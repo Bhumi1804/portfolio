@@ -65,12 +65,14 @@ setLoader(true);
             <input type="reset" value="reset" name="reset" />
             </td>
          </tr>
-         {
+         {/* {
           loading? <Loader/>:null
-         }
+         } */}
         </table>
       </form>
-
+      {
+          loading? <Loader/>:null
+         }
     </div>
     
   );

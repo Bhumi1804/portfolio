@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import About_me from "./components/About_me";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
           <Route path='/Contact' element={<Contact />} />
           <Route path='/Skills' element={<Skills />} />
         </Routes>
+        <Footer />
+        
       </BrowserRouter>
       
     </div>

@@ -3,7 +3,7 @@ function Footer()
 {
     return(
         <div className="footer">
-           Created by Bhoomik S Bhat
+           Created by Bhoomika S Bhat
         </div>
     )
 }
